@@ -10,7 +10,7 @@
     $service = 'airport';
     
     // the api url : the table deterines the service to pull from the API
-    $api_url = 'http://localhost/csys/api_sel_box/api/service/'.$service;
+    $api_url = 'http://path/to/app/api_table/api/service/'.$service;
     
     // get the values from the api link
     {
