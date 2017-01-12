@@ -1,4 +1,6 @@
 <?php
+// constants file
+include_once('inc/constants.php');
 // For make the connections to the database
 require('inc/conn.php');
 // import the required CRUD functions
@@ -19,8 +21,6 @@ require('inc/support.php');
     
 <strong>Display a Table with values from an API</strong><br>
 
-    
-    
 <?php
     $get_act = mysql_real_escape_string($_GET['a']);
     $get_act = (strlen($get_act) > 0) ? $get_act : 'r';

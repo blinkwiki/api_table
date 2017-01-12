@@ -10,7 +10,7 @@
     $service = 'airport';
     
     // the api url : the table deterines the service to pull from the API
-    $api_url = 'http://path/to/app/api_table/api/service/'.$service;
+    $api_url = API_LOC.$service;
     
     // get the values from the api link
     {
@@ -24,6 +24,7 @@
         // decode the results
         $obj = json_decode($json);
     }
+    
     
     ?>
     
